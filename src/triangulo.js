@@ -31,7 +31,7 @@ Triangulo.prototype.valido = function(){
   if(typeof(this.a) !== 'number' || typeof(this.b) !== 'number' || typeof(this.c) !== 'number'){
     return false;
 
-  }else if((this.a < 0) || (this.b < 0) || (this.c < 0)){
+  }else if((this.a <= 0) || (this.b <= 0) || (this.c <= 0)){
     return false;
   
   }else if( (this.a < (this.b + this.c)) && (this.b < (this.a + this.c)) && (this.c < (this.b + this.a))) {
