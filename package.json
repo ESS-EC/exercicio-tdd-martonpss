@@ -1,15 +1,20 @@
 {
-  "name": "triangulo",
+  "name": "Temperatura",
   "version": "1.0.0",
-  "description": "Projeto em Node.js para exercitar o conceito de test cases, inspirado no exemplo do livro \"The Art of Software Testing\"",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
-  "author": "Kiev Gama",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
   "devDependencies": {
     "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
     "mocha": "^6.2.2"
   }
 }
